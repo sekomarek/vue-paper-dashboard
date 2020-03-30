@@ -2,11 +2,10 @@
   box-sizing: border-box;
   border-width: $border-thick;
   font-size: $font-size-small;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-normal;
   padding: .5rem $padding-base-horizontal;
   line-height: 1.75;
   cursor: pointer;
-  text-transform: uppercase;
 
   &.btn-border,
   &.btn-link{
@@ -48,6 +47,23 @@
     padding: 2px 0px;
   }
 }
+
+.btn-with-icon{
+  border-radius: $border-radius-extreme;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  background-color: #FFFFFF;
+  color: $card-black-color;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  border: none;
+    i {
+      display: block;
+      padding: 10px;
+      font-size: 40px;
+  }
+}
+
 .upgrade-pro{
   .btn{
     margin-top: 30px;
@@ -114,6 +130,16 @@
   }
 }
 
+.btn-color-green {
+  color: $white-color;
+  background-color: $dst-green;
+}
+
+.btn-color-blue {
+  color: $white-color;
+  background-color: $dst-blue;
+}
+
 .btn{
   &:disabled,
   &[disabled],
@@ -139,6 +165,9 @@
 
 .btn-lg{
   @include btn-size($padding-large-vertical, $padding-large-horizontal, $font-size-base, $line-height-small);
+}
+.btn-xlg{
+  @include btn-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-small);
 }
 .btn-sm{
   @include btn-size($padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small);

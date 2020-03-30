@@ -1,4 +1,7 @@
-$font-color: #66615b !default;
+$dst-green: #48bb78;
+$dst-blue: #4299e1;
+
+$font-color: #52545c !default;
 $fill-font-color: rgba(255, 255, 255, 0.7);
 
 $none: 0 !default;
@@ -21,7 +24,7 @@ $black-color: #333333 !default;
 $black-hr: #444444 !default;
 
 $white-background-color: #FFFFFF !default;
-$black-background-color: #212120 !default;
+$black-background-color: #1e2028 !default;
 $darkblue-background-color: #35495E !default; // this is the dark blue color from Vue.js branding
 
 $light-gray: #E3E3E3 !default;
@@ -34,15 +37,15 @@ $success-input-bg: #ABF3CB !default;
 $other-medium-gray: #A49E93 !default;
 $transparent-bg: transparent !default;
 
-$default-color: #66615B !default;
-$default-bg: #66615B !default;
-$default-states-color: #403D39 !default;
+$default-color: #52545c !default;
+$default-bg: #52545c !default;
+$default-states-color: #52545C !default;
 
 $primary-color: #7A9E9F !default;
 $primary-bg: #7A9E9F !default;
 $primary-states-color: #427C89 !default;
 
-$success-color: #41B883 !default;   // this is the green color from Vue.js branding
+$success-color: #ff6600 !default;   // this is the green color from Vue.js branding
 $success-bg: #41B883 !default;
 $success-states-color: #229863 !default;
 

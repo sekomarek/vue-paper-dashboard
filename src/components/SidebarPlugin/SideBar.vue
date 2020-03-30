@@ -8,12 +8,19 @@
         -->
     <!-- -->
     <div class="sidebar-wrapper" id="style-3">
+      <!-- <div class="logo">
+        <a href="#" class="simple-text">
+            <div class="logo-img">
+                <img src="https://daset.sk/grafana/public/img/grafana_icon.svg" alt="">
+            </div>
+          {{title}}
+        </a>
+      </div> -->
       <div class="logo">
         <a href="#" class="simple-text">
             <div class="logo-img">
-                <img src="@/assets/img/vue-logo.png" alt="">
+                <img src="https://trello-attachments.s3.amazonaws.com/5cc83e6438f93578c916a149/5e4aaca29f435d314d0b82dc/67eb8b9f10511ad455a21e5f94cf8c79/scatto.svg" alt="">
             </div>
-          {{title}}
         </a>
       </div>
       <slot>
@@ -30,9 +37,9 @@
           </sidebar-link>
         </slot>
       </ul>
-      <moving-arrow :move-y="arrowMovePx">
+      <!-- <moving-arrow :move-y="arrowMovePx">
 
-      </moving-arrow>
+      </moving-arrow> -->
     </div>
   </div>
 </template>
@@ -43,7 +50,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Paper Dashboard"
+      default: "Scripting Administration Tool"
     },
     backgroundColor: {
       type: String,

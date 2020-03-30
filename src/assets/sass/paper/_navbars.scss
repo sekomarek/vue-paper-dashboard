@@ -18,7 +18,7 @@
   &.navbar-light {
     background-color: $bg-nude;
     box-shadow: none;
-    border-bottom: 1px solid $medium-gray;
+    border-bottom: 1px solid $success-color;
   }
   .navbar-toggler-right{
     float: right;
@@ -47,12 +47,12 @@
       color: #9A9A9A !important;
       text-transform: uppercase;
       font-weight: 600;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 1.5em;
       padding: 15px 0;
     }
     p:hover{
-      color: #403D39 !important;
+      color: #52545C !important;
     }
   }
   .navbar-nav{
