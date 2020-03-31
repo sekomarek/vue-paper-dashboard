@@ -1,18 +1,21 @@
 <template>
   <footer class="footer">
     <div class="container-fluid d-flex flex-wrap justify-content-between">
-      <nav>
+      <!-- <nav>
         <ul>
           <li>
-            <router-link :to="{path:'/admin'}">Dashboard</router-link>
+            <router-link :to="{path:'/admin'}">Home</router-link>
           </li>
         </ul>
-      </nav>
-      <div class="copyright d-flex flex-wrap">
+      </nav> -->
+      <!-- <div class="copyright d-flex flex-wrap">
         &copy; Coded with
         <i class="fa fa-heart heart"></i> by
         <a href="https://github.com/cristijora" target="_blank"> &nbsp; Cristi Jora.</a>&nbsp;
         Designed by <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank">&nbsp; Creative Tim.</a>
+      </div> -->
+      <div class="copyright d-flex flex-wrap">
+        &copy; 2020 - DaSeT/VoSeT Script Administration Tool
       </div>
     </div>
   </footer>

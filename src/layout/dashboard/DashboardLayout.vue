@@ -2,11 +2,12 @@
   <div class="wrapper">
     <side-bar>
       <template slot="links">
-        <sidebar-link to="/dashboard" name="Home" icon="ti-dashboard"/>
-        <sidebar-link to="/stats" name="List of tests" icon="ti-list"/>
-        <sidebar-link to="/table-list" name="Robots" icon="ti-bar-chart"/>
-        <sidebar-link to="/typography" name="Settings" icon="ti-settings"/>
-        <sidebar-link to="/icons" name="Help" icon="ti-help-alt"/>
+        <sidebar-link to="/home" name="Home" icon="ti-dashboard"/>
+        <sidebar-link to="/list-of-profiles" name="List of profiles" icon="ti-list"/>
+        <sidebar-link to="/list-of-tests" name="List of tests" icon="ti-list"/>
+        <sidebar-link to="/robots" name="Robots" icon="ti-bar-chart"/>
+        <sidebar-link to="/settings" name="Settings" icon="ti-settings"/>
+        <sidebar-link to="/help" name="Help" icon="ti-help-alt"/>
         <!-- <sidebar-link to="/maps" name="Map" icon="ti-map"/>
         <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/> -->
       </template>

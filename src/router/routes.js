@@ -3,6 +3,13 @@ import DashboardLayout from "@/layout/dashboard/DashboardLayout.vue";
 import NotFound from "@/pages/NotFoundPage.vue";
 
 // Admin pages
+import Home from "@/pages/Home.vue";
+import ListOfTests from "@/pages/ListOfTests.vue";
+import ListOfProfiles from "@/pages/ListOfProfiles.vue";
+import Robots from "@/pages/Robots.vue";
+import Settings from "@/pages/Settings.vue";
+import Help from "@/pages/Help.vue";
+
 import Dashboard from "@/pages/Dashboard.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import Notifications from "@/pages/Notifications.vue";
@@ -15,8 +22,38 @@ const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/dashboard",
+    redirect: "/home",
     children: [
+      {
+        path: "home",
+        name: "Home",
+        component: Home
+      },
+      {
+        path: "list-of-tests",
+        name: "List of tests",
+        component: ListOfTests
+      },
+      {
+        path: "list-of-profiles",
+        name: "List of profiles",
+        component: ListOfProfiles
+      },
+      {
+        path: "robots",
+        name: "Robots",
+        component: Robots
+      },
+      {
+        path: "settings",
+        name: "Settings",
+        component: Settings
+      },
+      {
+        path: "help",
+        name: "Help",
+        component: Help
+      },
       {
         path: "dashboard",
         name: "dashboard",

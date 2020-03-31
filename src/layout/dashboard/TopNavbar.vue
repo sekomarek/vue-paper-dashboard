@@ -13,12 +13,6 @@
       </button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="ti-panel"></i>
-              <p>Stats</p>
-            </a>
-          </li>
           <drop-down class="nav-item"
                      title="5 Notifications"
                      title-classes="nav-link"
@@ -29,12 +23,19 @@
             <a class="dropdown-item" href="#">Notification 4</a>
             <a class="dropdown-item" href="#">Another notification</a>
           </drop-down>
+          <!-- to-do redirect to user profile -->
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="ti-settings"></i>
+              <i class="ti-user"></i>
               <p>
-                Settings
+                Hello, {{user}} user!
               </p>
+            </a>
+          </li>
+          <!-- to-do logout user -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="ti-shift-right"></i>
             </a>
           </li>
         </ul>
@@ -51,7 +52,8 @@ export default {
   },
   data() {
     return {
-      activeNotifications: false
+      activeNotifications: false,
+      user: "Jordan"
     };
   },
   methods: {

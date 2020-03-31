@@ -3,6 +3,7 @@
     <thead>
     <slot name="columns">
       <th v-for="column in columns" :key="column">{{column}}</th>
+      <th>Action</th>
     </slot>
     </thead>
     <tbody>
@@ -13,6 +14,7 @@
             v-if="hasValue(item, column)"z>
           {{itemValue(item, column)}}
         </td>
+        <td><p-button size="sm" type="info" round>Edit profile</p-button></td>
       </slot>
     </tr>
     </tbody>
@@ -20,7 +22,7 @@
 </template>
 <script>
 export default {
-  name: 'paper-table',
+  name: 'robots-table',
   props: {
     columns: Array,
     data: Array,

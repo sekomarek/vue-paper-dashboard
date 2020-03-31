@@ -18,7 +18,7 @@
     </div>
 
     <!--Charts-->
-    <div class="row">
+    <!-- <div class="row">
 
       <div class="col-12">
         <chart-card title="Users behavior" sub-title="24 Hours performance" :chart-data="usersChart.data"
@@ -60,7 +60,7 @@
         </chart-card>
       </div>
 
-    </div>
+    </div> -->
 
   </div>
 </template>
