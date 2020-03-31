@@ -11,6 +11,8 @@ import StatsCard from "./Cards/StatsCard.vue";
 
 import SidebarPlugin from "./SidebarPlugin/index";
 
+import AddTestButtons from "./AddTestButtons";
+
 let components = {
   FormGroupInput,
   Card,
@@ -19,7 +21,8 @@ let components = {
   PaperTable,
   RobotsTable,
   DropDown,
-  SidebarPlugin
+  SidebarPlugin,
+  AddTestButtons
 };
 
 export default components;
@@ -33,5 +36,6 @@ export {
   RobotsTable,
   DropDown,
   Button,
-  SidebarPlugin
+  SidebarPlugin,
+  AddTestButtons
 };
